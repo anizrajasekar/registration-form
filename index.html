@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+ 
+</head>
+<body>
+    <div class="container mt-5">
+        <form action="/action_page.php" class="neeeds-validation border p-4 mb-4 rounded p-3 mb-2 bg-secondary text-white">
+        <h3>REGISTRATION FORM</h3>
+        <div class="row">
+              <div class="col-md-6">
+                <div class="input-group mt-3 mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user"></i></span>
+                    <div class="form-floating">
+                    <input type="text" class="form-control" id="name" placeholder="Username">
+                    <label for="name">FIRST NAME</label>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="form-floating mt-3 mt-3">
+                    <input type="text" class="form-control" id="name" placeholder="Password">
+                    <label for="name">LAST NAME</label>
+                </div>
+              </div>
+        </div>
+
+
+
+
+       <div class="row">
+              <div class="col-md-6">
+                <div class="input-group mt-3 mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-envelope"></i></span>
+                <div class="form-floating">
+                    <input type="Email" class="form-control" id="Email" placeholder="Username">
+                    <label for="Email">EMAIL</label>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="form-floating mt-3 mb-3">
+                    <label for="email" class="form-label">Confirm your email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                 </div>
+                </div>
+        </div>
+
+
+
+
+
+        <div class="row">
+                <div class="col-md-6">
+                    <div class="input-group mt-3 mb-3">
+                        <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-phone"></i></span>
+                        <div class="form-floating">
+                        <input type="number" class="form-control" id="number" placeholder="mobile no">
+                        <label for="number">MOBILE NO</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="input-group mt-3 mb-3">
+                        <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-address-book"></i></span>
+                        <div class="form-floating">
+                        <input type="text" class="form-control" placeholder="address">
+                        <label for="">ADDRESS</label>
+                        </div>
+                      </div>
+                </div>
+        </div>
+
+
+
+
+        <div class="row">
+                <div class="col-md-6">
+                       <label for="" class="mt-3">GENDER:</label>
+                       <div class="form-check mt-2">
+                        <input class="form-check-input" type="radio" name="gender" id="gender">
+                        <label class="form-check-label" for="gender">MALE</label>
+                       </div>
+
+                       <div class="form-check mt-2">
+                        <input class="form-check-input" type="radio" name="gender" id="gender">
+                        <label class="form-check-label" for="gender">FEMALE</label>
+                       </div>
+                </div>
+
+
+                <div class="col-md-6 ">
+                       <label for="" class="mt-3">LANGUAGES KNOWN:</label>  
+                       <div class="form-check mt-2">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                        <label class="form-check-label" for="flexCheckIndeterminate">TAMIL</label>
+                      </div>
+
+                      <div class="form-check mt-2">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                        <label class="form-check-label" for="flexCheckIndeterminate">ENGLISH</label>
+                      </div>
+                </div>
+       </div>
+
+
+
+
+
+
+      <div class="row">
+        <div class="col-md-6">
+            <label for="" class="form-label mt-4">GRADUATE:</label>
+            <div class="form-check mt-1">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">UG</label>
+            </div>
+
+            <div class="form-check mt-1">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">PG</label>
+            </div>
+        </div>  
+
+        <div class="col-md-6">
+               <p class="mt-4">HANDICAP?</p>
+               <div class="form-check form-switch mt-1">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                <label class="form-check-label" for="flexSwitchCheckDefault">YES</label>
+              </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="row">
+             <div class="col-md-6">
+                  <label for="" class="mt-4">SPECIALIZATION:</label>
+                  <select class="form-select form-select-sm  mt-3 w-50" aria-label=".form-select-sm example">
+                    <option selected>SELECT YOUR  DISTRICT</option>
+                    <option value="1">Chennai</option>
+                    <option value="2">Thanjavur</option>
+                    <option value="3">Coimbatore</option>
+                  </select>
+             </div> 
+      </div>
+      <button type="button" class="btn btn-primary mt-4">Submit</button>
+    </form>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+</body>
+</html>
